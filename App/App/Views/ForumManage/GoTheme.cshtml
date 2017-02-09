@@ -1,4 +1,4 @@
-﻿@model App.Models.Themes
+@model App.Models.Themes
 
 @{
     ViewBag.Title = "SelectedTheme";
@@ -37,7 +37,24 @@
         </div>
                 }
     <hr />
-    <div>
+    <div id="posts">
         @{ Html.RenderAction("_GetPosts");  }
     </div>
 </div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(
+        function () {
+            $('#posts').load('@Url.Action("_GetPosts", "ForumManage")');
+            refresh();
+        });
+
+    function refresh() {
+        setTimeout(
+            function(){
+                $ ('#posts').load('@Url.Action("_GetPosts", "ForumManage")');
+                refresh();
+            }, 1500);
+    }
+</script>
