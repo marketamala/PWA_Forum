@@ -1,0 +1,212 @@
+D:\PWA\API App\App\App\bin\ApplicationInsights.config
+D:\PWA\API App\App\App\bin\roslyn\csc.exe
+D:\PWA\API App\App\App\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\PWA\API App\App\App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\PWA\API App\App\App\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\PWA\API App\App\App\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\PWA\API App\App\App\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\PWA\API App\App\App\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\PWA\API App\App\App\bin\roslyn\System.Collections.Immutable.dll
+D:\PWA\API App\App\App\bin\roslyn\System.Reflection.Metadata.dll
+D:\PWA\API App\App\App\bin\roslyn\vbc.exe
+D:\PWA\API App\App\App\bin\roslyn\VBCSCompiler.exe
+D:\PWA\API App\App\App\bin\roslyn\VBCSCompiler.exe.config
+D:\PWA\API App\App\App\bin\App.dll.config
+D:\PWA\API App\App\App\bin\App.dll
+D:\PWA\API App\App\App\bin\App.pdb
+D:\PWA\API App\App\App\bin\Antlr3.Runtime.dll
+D:\PWA\API App\App\App\bin\EntityFramework.dll
+D:\PWA\API App\App\App\bin\EntityFramework.SqlServer.dll
+D:\PWA\API App\App\App\bin\Microsoft.AI.Agent.Intercept.dll
+D:\PWA\API App\App\App\bin\Microsoft.AI.DependencyCollector.dll
+D:\PWA\API App\App\App\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\PWA\API App\App\App\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\PWA\API App\App\App\bin\Microsoft.AI.Web.dll
+D:\PWA\API App\App\App\bin\Microsoft.AI.WindowsServer.dll
+D:\PWA\API App\App\App\bin\Microsoft.ApplicationInsights.dll
+D:\PWA\API App\App\App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\PWA\API App\App\App\bin\Microsoft.Web.Infrastructure.dll
+D:\PWA\API App\App\App\bin\Newtonsoft.Json.dll
+D:\PWA\API App\App\App\bin\PagedList.dll
+D:\PWA\API App\App\App\bin\PagedList.Mvc.dll
+D:\PWA\API App\App\App\bin\System.Net.Http.Formatting.dll
+D:\PWA\API App\App\App\bin\System.Web.Helpers.dll
+D:\PWA\API App\App\App\bin\System.Web.Http.dll
+D:\PWA\API App\App\App\bin\System.Web.Http.WebHost.dll
+D:\PWA\API App\App\App\bin\System.Web.Mvc.dll
+D:\PWA\API App\App\App\bin\System.Web.Optimization.dll
+D:\PWA\API App\App\App\bin\System.Web.Razor.dll
+D:\PWA\API App\App\App\bin\System.Web.WebPages.Deployment.dll
+D:\PWA\API App\App\App\bin\System.Web.WebPages.dll
+D:\PWA\API App\App\App\bin\System.Web.WebPages.Razor.dll
+D:\PWA\API App\App\App\bin\WebGrease.dll
+D:\PWA\API App\App\App\bin\EntityFramework.xml
+D:\PWA\API App\App\App\bin\EntityFramework.SqlServer.xml
+D:\PWA\API App\App\App\bin\Microsoft.AI.DependencyCollector.xml
+D:\PWA\API App\App\App\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\PWA\API App\App\App\bin\Microsoft.AI.Web.xml
+D:\PWA\API App\App\App\bin\Microsoft.AI.WindowsServer.xml
+D:\PWA\API App\App\App\bin\Microsoft.ApplicationInsights.xml
+D:\PWA\API App\App\App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\PWA\API App\App\App\bin\PagedList.xml
+D:\PWA\API App\App\App\bin\PagedList.Mvc.xml
+D:\PWA\API App\App\App\bin\Newtonsoft.Json.xml
+D:\PWA\API App\App\App\bin\System.Net.Http.Formatting.xml
+D:\PWA\API App\App\App\bin\System.Web.Helpers.xml
+D:\PWA\API App\App\App\bin\System.Web.Http.xml
+D:\PWA\API App\App\App\bin\System.Web.Http.WebHost.xml
+D:\PWA\API App\App\App\bin\System.Web.Mvc.xml
+D:\PWA\API App\App\App\bin\System.Web.Optimization.xml
+D:\PWA\API App\App\App\bin\System.Web.Razor.xml
+D:\PWA\API App\App\App\bin\System.Web.WebPages.xml
+D:\PWA\API App\App\App\bin\System.Web.WebPages.Deployment.xml
+D:\PWA\API App\App\App\bin\System.Web.WebPages.Razor.xml
+D:\PWA\API App\App\App\bin\Antlr3.Runtime.pdb
+D:\PWA\API App\App\App\obj\Debug\App.dll
+D:\PWA\API App\App\App\obj\Debug\App.pdb
+D:\PWA\API App\App\App\bin\log4net.dll
+D:\PWA\API App\App\App\bin\Migrations.dll
+D:\PWA\API App\App\App\bin\log4net.xml
+F:\PWA\API App\App\App\bin\ApplicationInsights.config
+F:\PWA\API App\App\App\bin\roslyn\csc.exe
+F:\PWA\API App\App\App\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\PWA\API App\App\App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\PWA\API App\App\App\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\PWA\API App\App\App\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\PWA\API App\App\App\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\PWA\API App\App\App\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\PWA\API App\App\App\bin\roslyn\System.Collections.Immutable.dll
+F:\PWA\API App\App\App\bin\roslyn\System.Reflection.Metadata.dll
+F:\PWA\API App\App\App\bin\roslyn\vbc.exe
+F:\PWA\API App\App\App\bin\roslyn\VBCSCompiler.exe
+F:\PWA\API App\App\App\bin\roslyn\VBCSCompiler.exe.config
+F:\PWA\API App\App\App\bin\App.dll.config
+F:\PWA\API App\App\App\bin\App.dll
+F:\PWA\API App\App\App\bin\App.pdb
+F:\PWA\API App\App\App\bin\Antlr3.Runtime.dll
+F:\PWA\API App\App\App\bin\EntityFramework.dll
+F:\PWA\API App\App\App\bin\EntityFramework.SqlServer.dll
+F:\PWA\API App\App\App\bin\log4net.dll
+F:\PWA\API App\App\App\bin\Microsoft.AI.Agent.Intercept.dll
+F:\PWA\API App\App\App\bin\Microsoft.AI.DependencyCollector.dll
+F:\PWA\API App\App\App\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\PWA\API App\App\App\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\PWA\API App\App\App\bin\Microsoft.AI.Web.dll
+F:\PWA\API App\App\App\bin\Microsoft.AI.WindowsServer.dll
+F:\PWA\API App\App\App\bin\Microsoft.ApplicationInsights.dll
+F:\PWA\API App\App\App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\PWA\API App\App\App\bin\Microsoft.Web.Infrastructure.dll
+F:\PWA\API App\App\App\bin\Migrations.dll
+F:\PWA\API App\App\App\bin\Newtonsoft.Json.dll
+F:\PWA\API App\App\App\bin\PagedList.dll
+F:\PWA\API App\App\App\bin\PagedList.Mvc.dll
+F:\PWA\API App\App\App\bin\System.Net.Http.Formatting.dll
+F:\PWA\API App\App\App\bin\System.Web.Helpers.dll
+F:\PWA\API App\App\App\bin\System.Web.Http.dll
+F:\PWA\API App\App\App\bin\System.Web.Http.WebHost.dll
+F:\PWA\API App\App\App\bin\System.Web.Mvc.dll
+F:\PWA\API App\App\App\bin\System.Web.Optimization.dll
+F:\PWA\API App\App\App\bin\System.Web.Razor.dll
+F:\PWA\API App\App\App\bin\System.Web.WebPages.Deployment.dll
+F:\PWA\API App\App\App\bin\System.Web.WebPages.dll
+F:\PWA\API App\App\App\bin\System.Web.WebPages.Razor.dll
+F:\PWA\API App\App\App\bin\WebGrease.dll
+F:\PWA\API App\App\App\bin\EntityFramework.xml
+F:\PWA\API App\App\App\bin\EntityFramework.SqlServer.xml
+F:\PWA\API App\App\App\bin\log4net.xml
+F:\PWA\API App\App\App\bin\Microsoft.AI.DependencyCollector.xml
+F:\PWA\API App\App\App\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\PWA\API App\App\App\bin\Microsoft.AI.Web.xml
+F:\PWA\API App\App\App\bin\Microsoft.AI.WindowsServer.xml
+F:\PWA\API App\App\App\bin\Microsoft.ApplicationInsights.xml
+F:\PWA\API App\App\App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\PWA\API App\App\App\bin\PagedList.xml
+F:\PWA\API App\App\App\bin\PagedList.Mvc.xml
+F:\PWA\API App\App\App\bin\Newtonsoft.Json.xml
+F:\PWA\API App\App\App\bin\System.Net.Http.Formatting.xml
+F:\PWA\API App\App\App\bin\System.Web.Helpers.xml
+F:\PWA\API App\App\App\bin\System.Web.Http.xml
+F:\PWA\API App\App\App\bin\System.Web.Http.WebHost.xml
+F:\PWA\API App\App\App\bin\System.Web.Mvc.xml
+F:\PWA\API App\App\App\bin\System.Web.Optimization.xml
+F:\PWA\API App\App\App\bin\System.Web.Razor.xml
+F:\PWA\API App\App\App\bin\System.Web.WebPages.xml
+F:\PWA\API App\App\App\bin\System.Web.WebPages.Deployment.xml
+F:\PWA\API App\App\App\bin\System.Web.WebPages.Razor.xml
+F:\PWA\API App\App\App\bin\Antlr3.Runtime.pdb
+F:\PWA\API App\App\App\obj\Debug\App.csprojResolveAssemblyReference.cache
+F:\PWA\API App\App\App\obj\Debug\App.dll
+F:\PWA\API App\App\App\obj\Debug\App.pdb
+D:\PWA\API App\App\App\obj\Debug\App.csprojResolveAssemblyReference.cache
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\ApplicationInsights.config
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\roslyn\csc.exe
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\roslyn\vbc.exe
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\roslyn\VBCSCompiler.exe
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\App.dll.config
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\App.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\App.pdb
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Antlr3.Runtime.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\EntityFramework.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\EntityFramework.SqlServer.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\log4net.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.AI.Web.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Migrations.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Newtonsoft.Json.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\PagedList.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\PagedList.Mvc.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Net.Http.Formatting.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.Helpers.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.Http.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.Http.WebHost.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.Mvc.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.Optimization.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.Razor.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.WebPages.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.WebPages.Razor.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\WebGrease.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\EntityFramework.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\EntityFramework.SqlServer.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\log4net.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.AI.Web.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\PagedList.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\PagedList.Mvc.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Newtonsoft.Json.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Net.Http.Formatting.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.Helpers.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.Http.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.Http.WebHost.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.Mvc.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.Optimization.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.Razor.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.WebPages.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\System.Web.WebPages.Razor.xml
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Antlr3.Runtime.pdb
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\obj\Debug\App.csprojResolveAssemblyReference.cache
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\obj\Debug\App.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\obj\Debug\App.pdb
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\Swashbuckle.Core.dll
+C:\Users\Narjíta Malá\Disk Google\API App\App\App\bin\WebActivatorEx.dll

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<App.Models.Responses>
+
+<div style="margin-left: 10%">
+    <table class="table">
+        @foreach (var item in Model)
+        {
+            <tr style="background-color: gainsboro">
+                <td>
+                    @Html.DisplayFor(modelItem => item.AddedBy)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AddedAt)
+                </td>
+                <td style="width: 70px">
+                    @if ((Session["UserName"] != null) && (Session["UserName"].ToString() == item.AddedBy))
+                    {
+                        @Html.ActionLink("Smazat", "DelResponse", "ForumManage", item, new { @class = "btn", @style = "background-color: black; color:white; font-size: 10px; width: 60px; height: 25px" })
+                    }
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    @Html.TextAreaFor(modelItem => item.RContent, new { @class = "form-control", @readonly = "true", @style = "border-style: none; width: 100%; min-width: 100%; height: 75px; min-height: 75px; cursor: default; background-color: white; font-size: 16px " })
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+

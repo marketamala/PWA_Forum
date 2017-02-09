@@ -1,0 +1,43 @@
+﻿@model App.Models.Themes
+
+@{
+    ViewBag.Title = "SelectedTheme";
+}
+
+<div>
+    <h2>@Html.DisplayFor(model => model.ThemeName)</h2>
+    <dl>
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedBy)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CreatedBy)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CreatedAt)
+        </dd>
+        @if (Model.Description != null)
+        {
+            <dt>
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+        }
+    </dl>
+    @if (Session["UserID"] != null)
+    {
+        <hr />
+        <div class="form-group">
+            @{ Html.RenderAction("_AddPost"); }
+        </div>
+                }
+    <hr />
+    <div>
+        @{ Html.RenderAction("_GetPosts");  }
+    </div>
+</div>

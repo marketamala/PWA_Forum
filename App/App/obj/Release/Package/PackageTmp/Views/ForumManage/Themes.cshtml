@@ -1,0 +1,20 @@
+﻿@model IEnumerable<App.Models.Themes>
+
+@{
+    ViewBag.Title = "Themes";
+}
+
+<h2>Diskusní forum</h2>
+
+<div class="form-horizontal">
+    @if (Session["UserID"] != null)
+    {
+        <div class="form-group">
+            @Html.ActionLink("Založit nové téma", "NewTheme", "ForumManage", new { @class = "btn btn-default", @style = "background-color: black; color:white; position: absolute; right: 20px" })
+        </div>
+        <hr />
+    }
+    <div>
+        @{ Html.RenderAction("_LoadThemes"); }
+    </div>
+</div>

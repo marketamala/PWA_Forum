@@ -1,0 +1,58 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+
+@model IPagedList<App.Models.Posts>
+
+<h3>Příspěvky v diskusi</h3>
+<table class="table">
+    @foreach (var item in Model)
+    {
+        <tr style="background-color: gainsboro">
+            <td>
+                @Html.DisplayFor(modelItem => item.AddedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AddedAt)
+            </td>
+            <td style="width: 70px">
+                @if ((Session["UserName"] != null) && (Session["UserName"].ToString() == item.AddedBy))
+                {
+                    @Html.ActionLink("Smazat", "DelPost", "ForumManage", item, new { @class = "btn", @style = "background-color: black; color:white; font-size: 10px; width: 60px; height: 25px" })
+                }
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                @Html.TextAreaFor(modelItem => item.Content, new { @class = "form-control", @readonly = "true", @style = "border-style: none; width: 100%; min-width: 100%; height: 75px; min-height: 75px; cursor: default; background-color: white; font-size: 16px " })
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                @{ Html.RenderAction("_GetResponses", item);  }
+            </td>
+        </tr>
+                    if (Session["UserName"] != null)
+                    {
+                        <tr>
+                            <td colspan="3" style="margin: 30px">
+                                @Html.ActionLink("Odpovědět", "GoPost", "ForumManage", item, new { @class = "btn", @style = "background-color: black; color:white; font-size: 10px; width: 80px; height: 25px" })
+                            </td>
+                        </tr>
+                        }
+                    }
+</table>
+
+<div class="pagination">
+    @Html.PagedListPager(Model, switchedPage => Url.Action("SwitchPage", new { switchedPage }),
+    PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(PagedListRenderOptions.PageNumbersOnly,
+        new AjaxOptions
+        {
+            InsertionMode = InsertionMode.Replace,
+            HttpMethod = "GET",
+            UpdateTargetId = "_GetPosts"
+        }))
+</div>
+
+
+
+

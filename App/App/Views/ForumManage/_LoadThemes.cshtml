@@ -1,0 +1,55 @@
+﻿@model IEnumerable<App.Models.Themes>
+
+@{
+    ViewBag.Title = "_LoadThemes";
+}
+
+@using (Html.BeginForm())
+{
+<div class="form-group" style="margin-left: 10px">
+    @if (Model.Count() > 0)
+    {
+    <table class="table" style="width:100%">
+        <tr>
+            <th style="width: 40%">
+                @Html.DisplayNameFor(model => model.ThemeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedBy)
+            </th>
+            <th style="width: 25%">
+                @Html.DisplayNameFor(model => model.CreatedAt)
+            </th>
+            <th style="width: 10%"></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.ActionLink(item.ThemeName, "GoTheme", "ForumManage", item, new { @style = "font-size: 18px; font-weight: bold, color: darkblue" })
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedBy)
+                </td>
+                <td style="width: 25%">
+                    @Html.DisplayFor(modelItem => item.CreatedAt)
+                </td>
+                <td style="width: 10%">
+                    @if (Session["UserID"] != null)
+                    {
+                        if (Session["UserName"].ToString() == item.CreatedBy)
+                        {
+                            @Html.ActionLink("Smazat", "DelTheme", "ForumManage", item, new { @class = "btn", @style = "background-color: black; color:white; font-size: 10px; width: 60px; height: 25px; position: absolute; right: 20px" })
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </table>
+    }
+</div>
+}
+
+
+

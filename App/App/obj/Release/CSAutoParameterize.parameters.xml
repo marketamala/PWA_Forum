@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="App.Models.DataCollection-Web.config Connection String" description="App.Models.DataCollection Connection String used in web.config by the application to access the database." defaultValue="App.Models.DataCollection_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Narjíta\ Malá\\Disk\ Google\\API\ App\\App\\App\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='App.Models.DataCollection']/@connectionString" />
+  </parameter>
+  <parameter name="App.Models.DataCollection_DatabasePublish-Web.config Connection String" description="App.Models.DataCollection_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="App.Models.DataCollection_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Narjíta\ Malá\\Disk\ Google\\API\ App\\App\\App\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='App.Models.DataCollection_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

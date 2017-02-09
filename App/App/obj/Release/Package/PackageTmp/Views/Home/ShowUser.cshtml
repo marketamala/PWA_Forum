@@ -1,0 +1,117 @@
+﻿@model App.Models.Accounts
+
+@{
+    ViewBag.Title = "Profile";
+}
+
+<div>
+    <h2> Profil uživatele @Model.UserName</h2>
+    <div>
+        <dl class="dl-horizontal">
+            @if (Model.FirstName != null)
+            {
+                <div class="form-group">
+                    @Html.LabelFor(model => model.FirstName)
+                    <dd>
+                        @Html.DisplayFor(modelitem => modelitem.FirstName)
+                    </dd>
+                </div>
+            }
+            @if (Model.LastName != null)
+            {
+                <div class="form-group">
+                    @Html.LabelFor(model => model.LastName)
+                    <dd>
+                        @Html.DisplayFor(model => model.LastName)
+                    </dd>
+                </div>
+            }
+            <div class="form-group">
+                @Html.LabelFor(model => model.Email)
+                <dd>
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+            </div>
+
+            @if (Model.IsMale == true)
+            {
+                <div class="form-group">
+                    @Html.LabelFor(model => model.IsMale)
+                    <dd>
+                        @Html.DisplayName("Muž")
+                    </dd>
+                </div>
+            }
+            else
+            {
+                <div class="form-group">
+                    @Html.LabelFor(model => model.IsMale)
+                    <dd>
+                        @Html.DisplayName("Žena")
+                    </dd>
+                </div>
+            }
+
+            @if (Model.Phone != null)
+            {
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Phone)
+                    <dd>
+                        @Html.DisplayFor(model => model.Phone)
+                    </dd>
+                </div>
+            }
+
+            @if (Model.Country != null)
+            {
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Country)
+                    <dd>
+                        @Html.DisplayFor(model => model.Country)
+                    </dd>
+                </div>
+            }
+
+            @if (Model.City != null)
+            {
+                <div class="form-group">
+                    @Html.LabelFor(model => model.City)
+                    <dd>
+                        @Html.DisplayFor(model => model.City)
+                    </dd>
+                </div>
+            }
+
+            @if (Model.Age != null)
+            {
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Age)
+                    <dd>
+                        @Html.DisplayFor(model => model.Age)
+                    </dd>
+                </div>
+            }
+
+            @if (Model.Interests != null)
+            {
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Interests)
+                    <dd>
+                        @Html.DisplayFor(model => model.Interests)
+                    </dd>
+                </div>
+            }
+
+            @if (Model.Info != null)
+            {
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Info)
+                    <dd>
+                        @Html.TextAreaFor(model => model.Info, new { @class = "form-control", @readonly = "true", @style = "border-style: none; width: 60%; min-width: 60%; height: 150px; min-height: 150px; cursor: default; background-color: #e6f2ff " })
+                    </dd>
+                </div>
+            }
+        </dl>
+    </div>
+</div>
+

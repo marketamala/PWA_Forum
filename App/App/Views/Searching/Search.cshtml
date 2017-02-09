@@ -1,0 +1,23 @@
+﻿@model App.Controllers.SearchModel
+
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>Vyhledávání</h2>
+<div>
+    <div style="margin-bottom: 15px">
+        @{ Html.RenderAction("_SearchItem"); }
+    </div>
+    <hr/>
+    <div>
+        <h4>Uživatelé</h4>
+        @{ Html.RenderAction("_LoadUsers", "Home", Model.search); }
+    </div>
+    <hr/>
+    <div>
+        <h4>Témata</h4>
+        @{ Html.RenderAction("_LoadThemes", "ForumManage", Model.search); }
+    </div>
+</div>
+

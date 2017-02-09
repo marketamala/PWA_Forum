@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Microsoft-ApiApp5fff2a11190a40ed8f6485b8d34395ea" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Narjíta\ Malá\\Disk\ Google\\API\ App\\App\\App\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Narjíta\ Malá\\Disk\ Google\\API\ App\\App\\App\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="App.Models.DataCollection-Web.config Connection String" description="" value="App.Models.DataCollection_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Narjíta\ Malá\\Disk\ Google\\API\ App\\App\\App\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='App.Models.DataCollection']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Forum</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrapMod.css" rel="stylesheet" />
+    <link href="~/Content/SideBar.css" rel="stylesheet" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body style="background-color: #e6f2ff">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:black">
+        <div class="container" style="margin: 5px">
+            <div class="navbar-top, navbar-btn pull-left">
+                <a href="#menu-toggle" id="menu-toggle"><img src="~/Images/menu_icon.png" class="navbar-brand" style="left: 10px; width: 50px"/></a>
+                @Html.ActionLink("ONLINE DISKUSE", "Index", "Home", null, new { @class = "navbar-brand", @style = "font-size: 24px; font-width: bold; font-family:Impact; color: ghostwhite; text-align:left; left: 70px" })
+            </div>
+            <div class="navbar-top, navbar-btn pull-right">
+                @if (Session["UserName"] != null)
+                {
+                    @Html.ActionLink("Odhlásit", "Logout", "AccountManage", null, new { @class = "navbar-brand", @style = "font-size: 16px; text-align:right; position: absolute; right: 10px" })
+                }
+                else
+                {
+                    @Html.ActionLink("Přihlásit", "Login", "AccountManage", null, new { @class = "navbar-brand", @style = "font-size: 16px; text-align:right; position: absolute; right: 130px" })
+                    @Html.ActionLink("Zaregistrovat", "Register", "AccountManage", null, new { @class = "navbar-brand", @style = "font-size: 16px; text-align:right; position: absolute; right: 10px" })
+                }
+            </div>
+        </div>
+    </div>
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav" style="margin-top: 8px">
+                <hr />
+                @Html.ActionLink("Vyhledávání", "Search", "Searching", null, new { @class = "btn", @style = "color:white; width: 100%; height: 10%; min-height: 10%; text-align: left" });
+                <hr style="margin-top: 0px" />
+                @Html.ActionLink("Registrovaní uživatelé", "Users", "Home", null, new { @class = "btn", @style = "background-color: black; color:white; width: 100%; height: 10%; min-height: 10%; text-align: left" })
+                @Html.ActionLink("Diskusní forum", "Themes", "ForumManage", null, new { @class = "btn", @style = "background-color: black; color:white; width: 100%; height: 10%; min-height: 10%; text-align: left" })
+                <hr />
+                @if (Session["UserID"] != null)
+                {
+                    <fieldset class="title">
+                        <legend style="color: lightsteelblue">@Session["UserName"].ToString()</legend>
+                    </fieldset>
+                    @Html.ActionLink("Zobrazit profil", "Loggedin", "AccountManage", null, new { @class = "btn", @style = "background-color: black; color:white; width: 100%; text-align: left" })
+                    @Html.ActionLink("Změnit heslo", "ChangePsw", "AccountManage", null, new { @class = "btn", @style = "background-color: black; color:white; width: 100%; text-align: left" })
+                    @Html.ActionLink("Upravit informace", "EditUser", "AccountManage", null, new { @class = "btn", @style = "background-color: black; color:white; width: 100%; text-align: left" })
+                    @Html.ActionLink("Smazat profil", "DeleteUser", "AccountManage", null, new { @class = "btn", @style = "background-color: black; color:white; width: 100%; text-align: left" })
+                }
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper" style="">
+            @RenderBody()
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</body>
+</html>
+

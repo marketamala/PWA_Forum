@@ -1,0 +1,11 @@
+﻿@model IEnumerable<App.Models.Accounts>
+
+@{
+    ViewBag.Title = "Users";
+}
+
+<h2>Registrovaní uživatelé</h2>
+
+<div>
+    @{ Html.RenderAction("_LoadUsers"); }
+</div>
