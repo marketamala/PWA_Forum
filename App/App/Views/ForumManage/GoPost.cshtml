@@ -1,4 +1,4 @@
-﻿@model App.Models.Posts
+@model App.Models.Posts
 
 @{
     ViewBag.Title = "GoPost";
@@ -28,7 +28,24 @@
         </tr>
     </table>
     <hr />
-    <div>
+    <div id="responses">
         @{ Html.RenderAction("_GetResponses", Model);  }
     </div>
 </div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(
+        function () {
+            $('#responses').load('@Url.Action("_GetResponses", "ForumManage", Model)');
+            refresh();
+        });
+
+    function refresh() {
+        setTimeout(
+            function(){
+                $ ('#responses').load('@Url.Action("_GetResponses", "ForumManage", Model)');
+                refresh();
+            }, 1500);
+    }
+</script>
